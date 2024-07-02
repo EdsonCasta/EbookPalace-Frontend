@@ -1,0 +1,77 @@
+/* ProductCard.module.css */
+.price{
+background-color: #08461c;
+display: inline;
+
+}
+.card {
+  background-color:black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  transition: transform 0.2s ease-in-out;
+  height: 580px;
+  width: 280px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 300px;
+  height: 400px;
+}
+
+.details {
+  padding: 16px;
+  text-align: center;
+}
+
+.details h3 {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.details p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.Info {
+  text-decoration: none;
+}
+
+.Info img {
+  border-bottom: 1px solid #ddd;
+}
+
+.Info .details {
+  padding: 10px;
+}
+
+.Info h3, .Info p {
+  margin: 0;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
